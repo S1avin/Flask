@@ -34,6 +34,13 @@ def contactPage():
 
     return render_template("index.html", title=title, paragraph=paragraph, pageType=pageType)
 
+@app.route('/z')
+def Page():
+
+    title = "ZZZZZZzzzzzzzzzz......"
+    paragraph = ["Wow"]
+
+    return render_template("index.html", title=title, paragraph=paragraph)
 
  
 if __name__ == "__main__":
