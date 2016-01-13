@@ -17,10 +17,11 @@
       </button>
       <a class="navbar-brand" href="/">MAIN</a>
     </div>
- <!-- Collect the nav links, forms, and other content for toggling -->
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="/new">NEW</a></li>
+       <li><a href="/new">NEW</a></li>
         <li class="dropdown">
           <a href="/update" class="dropdown-toggle" data-toggle="dropdown">Update <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
@@ -33,6 +34,7 @@
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
+	    <li><a href="/login">LOGIN</a></li>
         <li><a href="http://google.com">Google</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Good Stuff<span class="caret"></span></a>
@@ -47,9 +49,10 @@
 
     <body>
         <h3>{{ title }}</h3>
-        <p> {{ paragraph }}</p>
+	<p> {{ paragraph }}</p>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">$
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type = "text/javascript" src = "/static/bootstrap.min.js"></script>
 </nav>
+
 </html>
